@@ -1,0 +1,28 @@
+@media(max-width: 768px){
+
+      .wrapper{
+    
+        height: 460px;
+      }
+      
+    
+    .navbar_icon{
+        display: none;
+        align-items: flex-end;
+    }
+    .navbar_tel{
+        display: none;
+    }
+    .navbar_link{
+        display: none;
+    }
+    .truck_title{
+        padding-top: 500px;
+    }
+
+    .truc_time_p{
+        width: 350px;
+        height: 76px;
+    }
+    
+}

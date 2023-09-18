@@ -1,0 +1,139 @@
+.contact_us{
+    background: var(--bg, #212529);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 65px;
+    padding-bottom: 70px;
+    padding-right: 100px;
+
+    &-title{
+        h2{
+            color: var(--white, #F3F3F3);
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 130%;
+            padding-top: 10px; 
+           
+        }
+    }
+    &-icon{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 7px;
+    }
+
+    .email
+    {
+        width: 267px;
+        padding-top: 23px;
+      
+        a{
+            color: var(--lightgray, #AFAFAF);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%; 
+            text-decoration: none;
+        }
+
+        p{
+            color: var(--white, #F3F3F3);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%; 
+        }
+    }
+    
+    
+    .phone
+    {
+        width: 150px;
+        
+       
+        a{
+            color: var(--lightgray, #AFAFAF);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%; 
+            text-decoration: none;
+        }
+
+        p{
+            color: var(--white, #F3F3F3);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%; 
+        }
+    }
+    
+    .we_work
+    {
+        width: 91px;
+        
+        a{
+            color: var(--lightgray, #AFAFAF);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%; 
+            text-decoration: none;
+        }
+
+        p{
+            color: var(--white, #F3F3F3);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%; 
+            margin-bottom: 7px;
+        }
+    }
+    
+    .adres
+    {
+        width: 299px;
+        padding-top: 25px;
+   
+        a{
+            color: var(--lightgray, #AFAFAF);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%; 
+            text-decoration: none;
+        }
+
+        p{
+            color: var(--white, #F3F3F3);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%; 
+            
+        }
+    }
+}
+
+.footer_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 800px;
+    height: 101px;
+    background: var(--bg-light, #272B30);
+
+    p{
+        color: var(--lightgray, #AFAFAF);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}

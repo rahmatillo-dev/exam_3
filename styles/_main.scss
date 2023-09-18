@@ -1,0 +1,268 @@
+.about_us{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--bg, #212529);
+    height: 570px;
+    gap: 92px;
+
+    &-title{
+        
+        padding-left: 245px;
+        h2{
+            color: var(--white, #F3F3F3);
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            padding-bottom: 25px;
+
+        }
+
+        p{
+            width: 620px;
+            color: var(--white, #F3F3F3);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%; 
+            padding-bottom: 41px;
+        }
+    }
+
+    &-img{
+        width: 100%;
+        max-width: 961px;
+    }
+}
+
+.what_do{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--bg, #212529); 
+    &-img{
+        width: 100%;
+        max-width: 959px;
+    }
+
+    &-title{
+        padding-right: 245px;
+       h2{
+        color: #F3F3F3;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-bottom: 25px;
+       }
+       p{
+        width: 570px;
+        color: var(--white, #F3F3F3);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 130%;
+        padding-bottom: 41px;
+       }
+    }
+}
+
+.truck_menu{
+  background: var(--bg-light, #272B30); 
+  height: 763px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  
+  .card{
+    width: 450px;
+    height: 480px;
+    background: #212529;
+    padding: 30px;
+
+    h2{
+        padding-bottom: 20px;
+    }
+
+    p{
+        padding-bottom: 30px;
+    }
+    
+  }
+}
+
+.our_mission{
+    background-image: url("../img/man.svg");
+    height: 400px;
+    padding-left: 255px;
+    
+    h2{
+        padding-top: 104px;
+        color: var(--white, #F3F3F3);
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-bottom: 20px;
+    }
+
+    p{
+        width: 450px;
+        padding-bottom: 24px;
+        color: var(--white, #F3F3F3);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 130%; 
+    }
+
+    h4{
+        color: var(--white, #F3F3F3);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 130%; /* 26px */
+    }
+
+    
+}
+
+.our_mission-menu{
+    
+      background: var(--bg, #212529);
+
+    .our_mission-link{
+        display: flex;
+        align-items: center;
+        justify-content:left;
+        gap: 120px;
+        background: var(--bg, #212529);
+        max-width: 1065px;
+        height: 122px;
+        padding-bottom: 120px;
+         padding-left: 370px;
+         padding-top: 109px;
+
+
+        
+        .card{
+            width: 493px;
+            ul{
+                li{
+                    list-style-type: square;
+                    color: #04ff14;
+                    a{
+                        color: var(--white, #F3F3F3);
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 180%;
+                        text-decoration: none;
+                    }
+                }
+            }
+            
+        }
+    }
+
+ 
+
+    .our_mission-title{
+        h2{
+            width: 307px;
+            color: var(--white, #F3F3F3);
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            padding-bottom: 20px;
+        }
+        h4{
+            width: 342px;
+            color: var(--white, #F3F3F3);
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+}
+
+
+
+.driving_careers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    
+
+    &-title{
+        width: 600px;
+        background: #521F84;
+       height: 450px;
+        padding-left: 120px;
+        padding-top: 119px;
+        margin-bottom: 120x;
+
+        h2{
+            color: var(--white, #F3F3F3);
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 180%; 
+        }
+
+        p{
+            color: #A466E1;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 180%; 
+        }
+       
+        
+    }
+}
+
+
+
+.driving_careers-title button{
+    display: inline-flex;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #521F84;
+    color: var(--white, #F3F3F3);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; 
+    margin-top: 30px;
+    border: 2px solid var(--white, #F3F3F3);
+}
+
+.our_partners{
+    padding-top: 120px;
+   
+   
+    h2{
+        text-align: center;
+        color: var(--white, #F3F3F3);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%; 
+    }
+
+    &-menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+        
+    }
+}
