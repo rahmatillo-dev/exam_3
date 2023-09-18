@@ -301,12 +301,9 @@
   padding-left: 370px;
   padding-top: 109px;
 }
-.our_mission-menu .our_mission-link .card {
-  width: 493px;
-}
 .our_mission-menu .our_mission-link .card ul li {
   list-style-type: square;
-  color: #04ff14;
+  color: #28f10a;
 }
 .our_mission-menu .our_mission-link .card ul li a {
   color: var(--white, #F3F3F3);
@@ -548,13 +545,13 @@
     width: 288px;
   }
   .truck_title h2 {
-    padding-left: 45px;
+    padding-left: 58px;
   }
   .truck_price {
-    padding-left: 45px;
+    padding-left: 58px;
   }
   .line {
-    padding-right: 276px;
+    padding-left: 58px;
   }
   .about_us {
     display: flex;
@@ -562,17 +559,11 @@
     justify-content: center;
     max-width: 1106;
   }
-  .about_as-title {
-    padding-left: 200px;
-  }
-  .about_as-title h2 {
-    padding-left: 46px;
-  }
-  .about_as-title p {
-    padding-left: 46px;
-    gap: 37px;
-  }
 }
+.about_us_title {
+  padding-left: 1000;
+}
+
 @media (max-width: 768px) {
   .wrapper {
     height: 460px;

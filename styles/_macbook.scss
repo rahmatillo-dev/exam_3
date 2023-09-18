@@ -47,17 +47,17 @@
     .truck_title{
         h2{
             
-            padding-left: 45px;
+            padding-left: 58px;
         }
     }
 
     .truck_price{
-            padding-left: 45px;
+            padding-left: 58px;
 
     }
 
     .line{
-        padding-right: 276px;
+        padding-left: 58px;
     }
     .about_us{
         display: flex;
@@ -68,17 +68,12 @@
         
     }
 
-    .about_as-title{
-        
-        padding-left: 200px;
-        h2{
-            padding-left: 46px;
-        }
-        p{
-            padding-left: 46px;
-            gap: 37px;
-        }
     }
+
+   .about_us_title{
+          padding-left: 1000;  
+        }
+
+     
     
     
-}
