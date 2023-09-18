@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container {
@@ -10,7 +11,7 @@
 }
 
 .wrapper {
-  background-image: url("../img/bacround_header.svg");
+  background-image: url("../img/bacround_header.png");
   width: 100%;
   max-width: 1920px;
   height: 1080px;
@@ -256,7 +257,7 @@
 }
 
 .our_mission {
-  background-image: url("../img/man.svg");
+  background-image: url("../img/bacround.png");
   height: 400px;
   padding-left: 255px;
 }
